@@ -29,6 +29,11 @@ namespace GamePicker
             // Suspend the screen.
             Console.ReadLine();
         }
+
+        static public void addGameToList(List<String> platforms, String gameName, List<Boolean> Attributes, List<String> genres)
+        {
+
+        }
     }
 
 }

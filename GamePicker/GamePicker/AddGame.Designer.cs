@@ -131,6 +131,7 @@
             this.addGameBtn.TabIndex = 8;
             this.addGameBtn.Text = "Add Game";
             this.addGameBtn.UseVisualStyleBackColor = true;
+            this.addGameBtn.Click += new System.EventHandler(this.addGameBtn_Click);
             // 
             // cancelBtn
             // 
