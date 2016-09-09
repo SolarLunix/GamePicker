@@ -25,6 +25,8 @@ namespace GamePicker
         private void addGameBtn_Click(object sender, EventArgs e)
         {
             List<String> platforms = thePlatforms();
+            String gameName = this.gameNameInput.Text;
+            Console.WriteLine(gameName);
             this.Close();
             
         }
