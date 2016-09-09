@@ -16,5 +16,10 @@ namespace GamePicker
         {
             InitializeComponent();
         }
+
+        private void AllGames_Click(object sender, EventArgs e)
+        {
+            AllLists.fillAllGames();
+        }
     }
 }

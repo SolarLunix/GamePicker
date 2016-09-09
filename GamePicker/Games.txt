@@ -1,0 +1,2 @@
+Platform, Game, LocalPlay, OnlinePlay, Genre(s)
+PC, Stardew Valley, Single, No, RPG
