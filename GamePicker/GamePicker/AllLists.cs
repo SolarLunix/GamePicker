@@ -8,7 +8,8 @@ namespace GamePicker
 {
     class AllLists
     {
-        String[] allGames = new String[] { };
+        List<String> ownedPlatforms = new List<String>();
+        
 
         static public void fillAllGames()
         {
@@ -25,15 +26,13 @@ namespace GamePicker
             }
 
             file.Close();
-
-            // Suspend the screen.
-            Console.ReadLine();
         }
 
-        static public void addGameToList(List<String> platforms, String gameName, List<Boolean> Attributes, List<String> genres)
+        static public void addGameToList(List<Boolean> platforms, String gameName, List<Boolean> Attributes, List<String> genres)
         {
-
+            
         }
+
     }
 
 }

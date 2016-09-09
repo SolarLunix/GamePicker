@@ -38,7 +38,7 @@
             this.AllGames.Name = "AllGames";
             this.AllGames.Size = new System.Drawing.Size(260, 31);
             this.AllGames.TabIndex = 0;
-            this.AllGames.Text = "All Games";
+            this.AllGames.Text = "See Games";
             this.AllGames.UseVisualStyleBackColor = true;
             this.AllGames.Click += new System.EventHandler(this.AllGames_Click);
             // 
@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.addGameBTN);
             this.Controls.Add(this.AllGames);
             this.Name = "Form1";
