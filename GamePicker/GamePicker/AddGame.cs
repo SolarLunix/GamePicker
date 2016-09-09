@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace GamePicker
 {
-    public partial class Form1 : Form
+    public partial class AddGame : Form
     {
-        public Form1()
+        public AddGame()
         {
             InitializeComponent();
         }
 
-        private void AllGames_Click(object sender, EventArgs e)
+        private void cancelBtn_Click(object sender, EventArgs e)
         {
-            AllLists.fillAllGames();
-        }
-
-        private void addGameBTN_Click(object sender, EventArgs e)
-        {
-            AddGame addGameForm = new AddGame();
-            addGameForm.Show();
+            this.Close();
         }
     }
 }
