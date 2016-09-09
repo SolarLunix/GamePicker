@@ -1,0 +1,5 @@
+TODO:
+  1. Finish getting the game picker to be able to add Games
+  2. Get the Game Picker to be able to choose games based on current preferences
+  3. Update the Game Picker so that the number of consoles is Dynamic
+    - Possibily change the form to an HTML page 
